@@ -11,7 +11,6 @@ function EyesOnMe() {
     console.log("Hey! Eyes on me!");
   }
 
-
   return (
     <div>
       <button type="button" name="eyesbutton" onFocus={() => handleFocus()} onBlur={() => handleBlur()} >Eyes on me</button>
